@@ -142,8 +142,7 @@ body {
   @apply relative rounded-md;
   border: 1px solid transparent;
 
-  background:
-    linear-gradient(to right, var(--card), var(--card)) padding-box,
+  background: linear-gradient(to right, var(--card), var(--card)) padding-box,
     linear-gradient(to right, rgb(255, 79, 216), rgb(122, 15, 43)) border-box;
 }
 
@@ -154,13 +153,26 @@ body {
 }
 
 @utility star {
-  @apply absolute rounded-full bg-white;
-  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+  @apply absolute rounded-full;
+
+  background: rgba(78, 31, 41, 0.95); /* #4E1F29 core */
+
+  box-shadow: 0 0 8px 2px rgba(140, 45, 65, 0.45),
+    0 0 20px 6px rgba(78, 31, 41, 0.25);
 }
 
 @utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+  @apply absolute rounded-full;
+
+  background: linear-gradient(
+    to right,
+    rgba(140, 45, 65, 0.9),
+    rgba(78, 31, 41, 0.6),
+    transparent
+  );
+
+  box-shadow: 0 0 8px 2px rgba(140, 45, 65, 0.45),
+    0 0 20px 6px rgba(78, 31, 41, 0.25);
 }
 
 #root {
