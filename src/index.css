@@ -252,10 +252,10 @@ h3 {
     font-family: 'Poppins', system-ui, sans-serif;
     font-weight: 500;
     letter-spacing: 0.18em;
-    font-size: 0.95rem; /* bigger than default */
+    font-size: 1.05rem; /* bigger than default */
     text-transform: uppercase;
     color: rgb(var(--foreground));
-    opacity: 0.8;
+    opacity: 0.9;
     display: inline-block;
     /* transition: transform 300ms ease, opacity 300ms ease, color 300ms ease; */
   }
